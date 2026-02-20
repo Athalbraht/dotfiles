@@ -13,8 +13,8 @@ plugins=(
 export VISUAL=nvim;
 export EDITOR=nvim;
 alias vim="nvim"
-alias tmux="bash -c tmux"
-alias tmuxa="bash -c 'tmux attach-session -t main'"
+# alias tmux="bash -c tmux"
+# alias tmuxa="bash -c 'tmux attach-session -t main'"
 
 # Setup pyenv
 export PYENV_ROOT="$HOME/.pyenv"
