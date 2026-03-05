@@ -241,6 +241,7 @@ exec pacmd update-sink-proplist Snapcast device.description=Snapcast
 ####################
 
 exec_always xset s on
+exec_always xbacklight -set 40
 exec_always xset s 2700 2700
 
 #exec picom --experimental-backends
